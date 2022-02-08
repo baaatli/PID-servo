@@ -1,0 +1,2 @@
+# PID-servo
+Making a PID controller out of Arduino UNO to make a servo motor smoothly to the defined angle. Usual change in angle of a servo will be very rapid and draw a lot of current from the battery. To avoid the jerk and give a smooth change in angle, a PID (proportional integral differential control) is implemented that moves servo smoothly to the desired angle. P I and D values have to be adjusted as per your configuration. I am using a SG90 micro servo motor without load.
